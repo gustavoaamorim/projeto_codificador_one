@@ -1,0 +1,106 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #E5E5E5;  
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 40px;
+
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+
+.encrypt {
+    margin: 20px 0 20px 50px;
+}
+
+.encrypt textarea {
+    resize: none;
+    font-size: 28px;
+    border: none;
+    box-shadow: none;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: 0;
+    text-transform: lowercase;
+}
+
+.info {
+    font-size: 15px;
+
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.crip {
+    background-color: #0A3871;
+    color: white;
+    border-radius: 10px;
+    border-color: #0A3871;
+    border-width: 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.decrip {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 10px;
+    border-color: #0A3871;
+    border-width: 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.decrypt textarea {
+    resize: none;
+    font-size: 28px;
+    margin: 0 30px 0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: none;
+    outline: 0;
+    padding: 10px;
+}
+
+.decrypt button {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 10px;
+    border-color: #0A3871;
+    border-width: 1px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+ion-icon {
+    color: #0A3871;
+}
