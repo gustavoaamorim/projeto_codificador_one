@@ -1,5 +1,5 @@
-# projeto_codificador_one
-Programa para codificar e descodificar textos
+# Programa para codificar e descodificar textos
+
 
 O presente projeto foi desenvolvido como um desafio no Programa Oracle Next Education + Alura para trabalhar as técnicas aprendidas durante os módulos de lógica de programação, HTML, CSS e Javascript.
 
